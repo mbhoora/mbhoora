@@ -1,0 +1,15 @@
+version: "3"
+services:
+  server:
+    image: nodejs:monte-carlo-qa
+    #environment:
+      #WCSENDPOINT: ${WCSENDPOINT}
+      #ENDPOINT: ${ENDPOINT}
+      #REDIS: ${REDIS}
+      #HOST_IP: ${HOST_IP}
+      #WEBSERVER_IP: ${WEBSERVER_IP}
+      #IMAGE_ENDPOINT: ${IMAGE_ENDPOINT}
+      #REDIS_IP: ${REDIS_IP}
+      #REDIS_PORT: ${REDIS_PORT}
+    ports:
+      - ${PORT}:${PORT}
